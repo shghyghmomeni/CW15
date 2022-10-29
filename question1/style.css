@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 60px auto;
+  width: 500px;
+  height: 500px;
+  background-color: #0da192;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+
+.container div {
+  border: 1px solid #0da192;
+  background-color: #14bdac;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-svg,
+.circle-svg {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+}
